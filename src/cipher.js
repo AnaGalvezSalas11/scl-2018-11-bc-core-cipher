@@ -32,8 +32,15 @@ window.cipher = {
         let ascii= mensaje_cifrar[i].charCodeAt();
         if (ascii>=65 && ascii <=90) {                    
         let letradescifrada = (ascii-65-offset)%26+65;    
-        descifrado += String.fromCharCode(letradescifrada);  
-        }else {
+        if (letradescifrada <65) {
+          letradescifrada+=26;
+        }
+        descifrado += String.fromCharCode(letradescifrada);
+        
+
+      }
+        
+        else {
           descifrado += mensaje_cifrar[i];
     }
     }  

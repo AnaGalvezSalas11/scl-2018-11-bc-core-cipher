@@ -31,3 +31,5 @@ contenedordos.innerHTML = cipher.decode(mensaje_cifrar, offset);
 }); 
 
 }
+
+
