@@ -28,6 +28,7 @@ body{
     border: 3px solid white;
     font-weight: bold;
     color: #34495E;
+    text-align: center; 
 
 
 }
@@ -78,23 +79,8 @@ label{
 
 }
 
-.IngresaTexto{
-    display: inline-block
-    position: absolute; 
-    border-radius: 133px 40px 136px 40px;
-    width: 600px;
-    text-align: center;
-    height: 200px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
-    border-radius: 18px;
-    border: 3px solid #8f80b8;
 
-} 
-
-
-
-.cifrar{
+.cifrar, .descifrar, .IngresaTexto, .reset {
 
     background-color: #7FB3D5;
     border: none;
@@ -111,21 +97,6 @@ border: 2px solid white;
 
   }
 
-.descifrar {
-    background-color: #7FB3D5;
-    border: none;
-    color: #1C2833;
-    padding: 8px 18px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 25px;
-    border-radius: 18px 18px 18px 18px;
--moz-border-radius: 18px 18px 18px 18px;
--webkit-border-radius: 18px 18px 18px 18px;
-border: 2px solid white;
-
-}
 
 .cifrado{
     background-color: #f8f8f8;
@@ -184,5 +155,9 @@ border: 2px solid white;
 
 .textopadre{
     width: 100%; 
+
+}
+
+.reset{
 
 }

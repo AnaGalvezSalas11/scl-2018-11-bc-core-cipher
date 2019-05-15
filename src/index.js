@@ -1,4 +1,4 @@
-window.onload = () => {   //onload me aseguro que carge la estructura de la pagina y puego se cargan las funciones de javascript
+window.onload = () => {   //onload me aseguro que carge la estructura de la pagina y luedo se cargan las funciones de javascript
 
     // traigo el div donde quiero que aparezca mi mensaje ya cifrado
     const contenedor = document.getElementById("cifrado");
@@ -29,6 +29,19 @@ document.getElementById("descifrar").addEventListener("click", () => {
 contenedordos.innerHTML = cipher.decode(mensaje_cifrar, offset);
 
 }); 
+
+//limpiar textos ingresados, cifrados y descrifrado:
+
+const reset=document.getElementById("reset");
+document.getElementById("resetText").addEventListener("click", () => {
+
+    document.getElementById("IngresaTexto").value = "";
+    document.getElementById("cifrado").innerHTML= "";
+    document.getElementById("descifrado").innerHTML= "";
+
+}); 
+
+
 
 }
 

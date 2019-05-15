@@ -12,28 +12,28 @@
 <body>
 
 <div>    
-    <center><h1 class="bienvenido">Bienvenid@</h1></center>
-    <br> <center><p class="p1">Transforma tu texto mediante el Código Cesar, si no sabes que es el código cesar, has click. <a href="https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar" >"aquí"</a>.
+    <h1 class="bienvenido">Bienvenid@</h1>
+    <br><p class="p1">Transforma tu texto mediante el Código Cesar, si no sabes que es el código cesar, has click. <a href="https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar" >"aquí"</a>.
         
         <br> <br>Esta aplicación no codifica la letra ñ y carácteres.
         <br> <br>A continuación ingresa el número de desplazamiento y el texto que quieres cifrar o descifrar:
-    </p></center>    
+    </p>    
 
         
     
-        <center><br><br><input class="desplazamiento" id="desplazamiento" type="number" placeholder="Desplazamiento" min="1" max="26" ></center>
+        <br><br><input class="desplazamiento" id="desplazamiento" type="number" placeholder="Desplazamiento" min="1" max="26" >
      
     
 
         <form>  
-       <center> <br><br><label>Ingresa el texto que quieres cifrar o descifrar:</label> </center>
+       <br><br><label>Ingresa el texto que quieres cifrar o descifrar:</label> 
 
         
-        <center> <br> <br> <br> <textarea class="IngresaTexto" id="IngresaTexto" cols="30" rows="10" placeholder="Texto"></textarea></center>
+        <br> <br> <br> <textarea class="IngresaTexto" id="IngresaTexto" cols="30" rows="10" placeholder="Texto"></textarea>
         </form>
     
 
-    <br><center> <button class="cifrar" id="cifrar" type="button">Cifrar </button> <button class="descifrar" type="button" id="descifrar" >Descifrar</button></center>
+    <br><button class="cifrar" id="cifrar" type="button">Cifrar </button> <button class="descifrar" type="button" id="descifrar" >Descifrar</button>
 </div>
 
     <div class="textopadre" >
@@ -48,6 +48,8 @@
 <div id="cifrado" class="cifrado" ></div> 
 
 <div id="descifrado" class="descifrado" ></div>
+
+<br><br><br><div id="reset"> <input type="button" id="resetText" value="Limpiar" class="reset"> </div>
 
 </div>
 
