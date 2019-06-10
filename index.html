@@ -1,5 +1,7 @@
 
+<!DOCTYPE html>  
 <html>
+
 <head>
     <meta charset="UTF-8">
     <title>Codigo Cesar</title>
@@ -10,30 +12,50 @@
 <body>
 
 <div>    
-<h1>Bienvenido</h1>
+    <center><h1 class="bienvenido">Bienvenid@</h1></center>
+    <br> <center><p class="p1">Transforma tu texto mediante el Código Cesar, si no sabes que es el código cesar, has click. <a href="https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar" >"aquí"</a>.
+        
+        <br> <br>Esta aplicación no codifica la letra ñ y carácteres.
+        <br> <br>A continuación ingresa el número de desplazamiento y el texto que quieres cifrar o descifrar:
+    </p></center>    
 
-<p1>Transforma tu texto en Codigo Cesar, si no sabes que es el codigo cesar, has click "aqui"</p>
-
-
-<p2><div class=texto1 >A continuación ingresa</div> el numero de posicionamiento y el texto que quieres cifrar o descifrar</p>
+        
     
-<input class="desplazamiento" id="desplazamiento" type="number">
+        <center><br><br><input class="desplazamiento" id="desplazamiento" type="number" placeholder="Desplazamiento" min="1" max="26" ></center>
+     
+    
 
-<form>
-   <br> <br> <label>Ingresa el texto que desea codificar:</label> </br> <br>
-    <input class="IngresaTexto" id="IngresaTexto" placeholder="ingrese texto" type="text">
- 
-    <br><br><button class="cifrar" id="cifrar" type="button">Cifar </button> <button class="descifrar" type="button" id="descifrar" >Decifrar</button></br></br>
+        <form>  
+       <center> <br><br><label>Ingresa el texto que quieres cifrar o descifrar:</label> </center>
+
+        
+        <center> <br> <br> <br> <textarea class="IngresaTexto" id="IngresaTexto" cols="30" rows="10" placeholder="Texto"></textarea></center>
+        </form>
+    
+
+    <br><center> <button class="cifrar" id="cifrar" type="button">Cifrar </button> <button class="descifrar" type="button" id="descifrar" >Descifrar</button></center>
 </div>
 
-<div id="cifrado"></div>
-<div id="descifrado"></div>
+    <div class="textopadre" >
 
-</form>
+    <br><p class="t1">Texto Cifrado</p>
+    <p class="t2" >Texto Descifrado </p>
+
+    </div>
+
+<br> <br> <br> <br> <br> <div class="padre" >
+
+<div id="cifrado" class="cifrado" ></div> 
+
+<div id="descifrado" class="descifrado" ></div>
+
+</div>
+
 <script src="index.js"> </script>
 <script src="cipher.js" ></script>
 </body>
-</html> <s></s>
+
+</html>
 
 
 

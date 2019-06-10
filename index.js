@@ -1,6 +1,6 @@
 window.onload = () => {   //onload me aseguro que carge la estructura de la pagina y puego se cargan las funciones de javascript
 
-    // traigo el div donde quiero que aparesca mi mensaje ya cifrado
+    // traigo el div donde quiero que aparezca mi mensaje ya cifrado
     const contenedor = document.getElementById("cifrado");
     const contenedordos=document.getElementById("descifrado");
 
@@ -11,7 +11,7 @@ document.getElementById("cifrar").addEventListener("click", () => {
 
     let mensaje_cifrar=(document.getElementById("IngresaTexto").value).toUpperCase();
     let offset=document.getElementById("desplazamiento").value;
-    offset=parseInt(offset)
+    offset=parseInt(offset)  //use este metodo para que sea el string sea captado como number
 
 
 

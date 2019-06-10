@@ -2,6 +2,7 @@
 En esta pagina web, podras cifrar y descifrar el texto que tu quieras.
 
 En el primer parrafo podras acceder a un link que dice "aquí" donde podrás leer acerca del Código Cesar y saber de lo que se trata.
+
 Luego de éste parrafo debes ingresar en la figura ovalada (que dice "Desplazamiento"), el número de desplazamiento que quieres aplicar para cifrar el texto. Como aparece en la siguiente imagen. 
 
 ![imagen offset](https://sumel.cl/imagen3.jpeg)
@@ -26,6 +27,7 @@ Y va aparecer el texto cifrado y/o descifrado.
 - El objetivo es codificar un texto, cuyos motivos de los usuarios son diversos.
 
 - Es una pagina web que estructuralemente es ordenada (secuencial) pero el objetivo se cumple 80% dado a que al momento de descifrar el texto aparecen caracteres que no corresponden como @, &, etc.
+
 
 - Mi organización mediante Trello: https://trello.com/b/HqIL2wUI.
 
